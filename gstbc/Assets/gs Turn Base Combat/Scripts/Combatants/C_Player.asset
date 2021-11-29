@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9169ebe4b1268174290bfcee77dbad10, type: 3}
+  m_Name: C_Player
+  m_EditorClassIdentifier: 
+  name: Player
+  isPlayerControlled: 1
+  prefab: {fileID: 2790815189486482772, guid: b08ad3e42fc9de14f844c3a4bc870cfc, type: 3}
+  combatantTypes:
+  - {fileID: 11400000, guid: 18d065d5b7f60b54c9fbc290d72092ea, type: 2}
+  str: 5
+  dex: 1
+  wis: 1
+  con: 1
+  def: 1
+  spd: 2
+  helmet: {fileID: 11400000, guid: e06308bdbd7df4d4cac4b308003af46a, type: 2}
+  armor: {fileID: 0}
+  boots: {fileID: 0}
+  weapon: {fileID: 0}
+  offhand: {fileID: 0}
+  jewelry: []
+  combatActions:
+  - {fileID: 11400000, guid: 2cf8652ce4e0aa14ca7f7c9818517f9c, type: 2}
+  - {fileID: 11400000, guid: e98bc48740ceb094591a20910270102b, type: 2}
